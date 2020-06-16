@@ -2,6 +2,7 @@ package main
 
 import (
 	"golang.org/x/net/http2"
+	_ "golang.org/x/net/http2/h2c"
 	"log"
 	"net/http"
 	"time"
